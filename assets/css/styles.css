@@ -12,6 +12,7 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
+  position: relative;
 }
 
 a {
@@ -85,17 +86,17 @@ h2 {
 
 /* Header */
 .header {
-  padding-top: 4.2rem;
+  position: sticky;
+  top: -4.2rem;
+  background-color: white;
+  padding-top: 5.2rem;
+  padding-bottom: 1rem;
+  z-index: 1;
 }
 
 .header .content {
   display: flex;
   align-items: center;
-}
-
-.header .sticky-content-container {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
 }
 
 .logo-container {
@@ -134,8 +135,6 @@ h2 {
 }
 
 .nav-bar .nav-link:hover {
-  color: #2f3a3b;
-  font-size: 1.6rem;
   font-weight: 600;
 }
 
