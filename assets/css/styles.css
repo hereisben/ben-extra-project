@@ -435,8 +435,12 @@ h2 {
   font-size: 1.4rem;
   font-weight: 700;
   line-height: normal;
-  text-decoration: underline;
+  /* text-decoration: underline; */
   margin-left: auto;
+}
+
+.view-all-courses:hover {
+  text-decoration: underline;
 }
 
 .course-item-container {
@@ -718,6 +722,14 @@ h2 {
   font-size: 1.6rem;
   font-weight: 400;
   line-height: normal;
+}
+
+.social-item {
+  align-items: center;
+}
+
+.social-icon {
+  display: block;
 }
 
 .footer-item + .footer-item {
